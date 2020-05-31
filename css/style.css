@@ -1,0 +1,162 @@
+body{
+    background-color: #181f2b;
+}
+.navbar-cor{
+    background-color: #1c2230;
+    height:160px;
+}
+#conteudo-inicial{
+    text-align: center;
+    background-color: #1c2230;
+}
+
+#titulo-pagina{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+/***Segundo conteudo do site, ajustar imagem e fazer o degradê***/
+#conteudo-info{
+    background-color: #1c2230;
+    background-image: url(../imagens/bg-curvy-desktop.svg);
+    width: 100%;
+    height: 390px;
+    background-attachment: local;
+    background-position: top;
+    background-repeat: no-repeat; 
+}
+#txt-info{
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.btn-posicao{
+    text-align: center;
+}
+.btn-estilo{
+    width: 210px;
+    height: 50px;
+    border-radius: 35px;
+    background-color: #43b1d2;
+    border: 0px;
+    border-color: #43b1d2;
+    color: #ffffff;
+    font-weight: bold;
+}
+#area-colorida{ /*Completar a imagem degradê */
+    background-color: #181f2b;
+}
+#imagens{
+    text-align: center;
+}
+#imagens h5{
+    color: #ffffff;
+    margin-top: 10px;
+}
+#imagens p{
+    color: #dbdbdb;
+    font-size: 14px;
+}
+#txt-posicao{
+    text-align: center;
+}
+/***Terceiro conteudo da página, ajustar imagem e comentários***/
+#imagem-e-coment{
+    background-image: linear-gradient(to bottom, #181f2b 90%, #0c1524 10%);
+    color: #ffffff;
+}
+#imagem-e-coment h2{
+    margin-top: 160px;
+    margin-left: 0;
+}
+#imagem-e-coment p{
+    margin-left: 15px;
+}
+#comentarios{
+    margin-top: 180px;
+}
+.area-comentario{
+    border-radius: 15px;
+    border-color: #1c2230;
+    background-color: #1c2230;
+    height: 240px;
+}
+.area-comentario p{
+    color: #ffffff;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#foto-comentario{
+    width: 60px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.nome-comentario{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.cargo-comentario{
+    margin-left: 90px;
+    color: #dbdbdb;
+    font-size: 13px;
+    margin-top: -15px;
+}
+.espacamento-comentario{
+    margin-top: 45px;
+}
+/*Formulário*/
+#area-form{
+    border-radius: 20px;
+    margin-top: 80px;
+    background-color: #1c2230;
+}
+#formulario{
+    border-radius: 20px;
+    height: 50px;
+}
+#tit-form{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+footer{
+    background-color: #0c1524;
+}
+#logo-footer{
+    margin-top: 70px;
+}
+#txt-footer{
+    margin-top: 15px;
+    color: #ffffff;
+}
+.info-footer{
+    margin-top: 135px;
+    color: #ffffff;
+    text-align: center;
+}
+.btn-bordas{
+    border-radius: 30px;
+    margin-right: 2px;
+}
+footer a{
+    color: #ffffff;
+}
+footer a:hover{
+    color: #c7c7c7;
+    cursor: pointer;
+}
+
+@media(max-width: 576px){
+    #conteudo-info{
+        background-image: url(../imagens/bg-curvy-mobile.svg);
+        background-position: top;
+        background-size: cover;
+    }
+    .btn-centralize{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
